@@ -6,7 +6,7 @@
 class student
 {
         private:
-                std::string First, Last = "";
+                std::string First, Last;
                 std::vector <double> Grade;
         public:
                 void setName(std::string firstname, std::string lastname);

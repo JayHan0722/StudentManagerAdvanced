@@ -31,9 +31,15 @@ double student::getScore()
                 totalGrade = totalGrade + Grade[i];
         }
 
-        totalGrade = totalGrade/(Grade.size());
-
-        return totalGrade;
+        if(Grade.size() != 0;)
+        {
+                totalGrade = totalGrade/(Grade.size());
+                return totalGrade;
+        }
+        else
+        {
+        return 0;
+        }
 }
 
 student::student()
